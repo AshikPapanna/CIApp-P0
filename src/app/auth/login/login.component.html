@@ -1,0 +1,38 @@
+<div class="row justify-content-md-center" style="margin-top: 10%;">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="../../../assets/images/logo.PNG" alt="CI Logo" />
+          </div>
+          <div class="col-6">
+            <div >
+              <h3>Sign In</h3>
+              <form [formGroup]="loginForm" (ngSubmit)="login()">
+               
+                <div class="form-group">
+                   
+                  <label for="exampleInputEmail1">Email address</label>
+                  <a style="float: right;" routerLink="/register"> New hear? Register </a>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="userName"placeholder="Enter email">
+            
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Submit</button>
+              </form>
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
