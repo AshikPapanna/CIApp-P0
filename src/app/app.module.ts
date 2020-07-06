@@ -7,7 +7,8 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { LandingComponent } from './auth/landing/landing.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import {NgbCollapseModule}from '@ng-bootstrap/ng-bootstrap'
+import {NgbCollapseModule}from '@ng-bootstrap/ng-bootstrap';
+import { UserProfileComponent } from './components/user-profile/user-profile.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {NgbCollapseModule}from '@ng-bootstrap/ng-bootstrap'
     LoginComponent,
     RegisterComponent,
     LandingComponent,
-    DashboardComponent
+    DashboardComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,

@@ -28,8 +28,7 @@
             ],
             "scripts": [
               "src/assets/js/jquery.min.js",
-              "src/assets/js/popper.js",
-              "src/assets/js/main.js"
+              "src/assets/js/popper.js"              
             ],
             "es5BrowserSupport": true
           },

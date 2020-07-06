@@ -2,3 +2,13 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+html, body{
+    height: 100%;
+}
+.ci-flex-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background: linear-gradient(45deg, #6b02b5, #cc00ff);
+}
