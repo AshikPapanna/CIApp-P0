@@ -1,0 +1,38 @@
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}   
+.ci-menu{
+    padding: 1.6rem;
+    background-color: #dedddd;
+
+}
+
+.ci-btn-primary-outline{
+    color: #ff5733;
+    border-color: #ff5733;
+}
+.ci-line-after{
+    border-bottom: 3px solid #e83831 ;    
+}
+.components li{
+    margin-top: 0.5rem;    
+}
+.ci-btn-primary{
+    color: #ff5733;
+}
+.active{
+    color: #ff5733;
+}

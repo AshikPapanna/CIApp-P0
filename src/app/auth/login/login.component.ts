@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{FormBuilder} from '@angular/forms'
+import{Router,ActivatedRoute} from '@angular/router'
 
 @Component({
   selector: 'app-login',
@@ -13,11 +14,11 @@ export class LoginComponent implements OnInit {
     password:['']
   })
 
-  constructor(private fb:FormBuilder) { }
+  constructor(private fb:FormBuilder,private router:Router) { }
 
   ngOnInit() {
   }
 public login(){
-  
+  this.router.navigate(['/dashboard']);
 }
 }
