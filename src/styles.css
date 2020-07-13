@@ -12,3 +12,17 @@ html, body{
     justify-content: center;
    background: linear-gradient(45deg, #6b02b5, #cc00ff);
 }
+.img-container{
+    width: 100%;
+}
+.center-container{
+    width: 50%;
+}
+@media screen and (max-width:530px){
+    .img-container{
+        width: 50%;
+    }
+    .center-container{
+        width: 70%;
+    }
+}
